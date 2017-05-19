@@ -7,11 +7,47 @@ package Tugas;
 
 /**
  *
- * @author hp
+ * @author Fara
  */
-public class Sosmed {
-    public String ss;
-    public Sosmed(String ss){
-        this.ss = ss;
+public class Circle{
+    private Profile HanyaSaya, Keluarga, Teman;
+    
+    public Circle(Profile HanyaSaya, Profile Keluarga, Profile Teman){
+        this.HanyaSaya = HanyaSaya;
+        this.Keluarga = Keluarga;
+        this.Teman = Teman;
+    }
+    
+    public Circle(Profile HanyaSaya, Profile Keluarga){
+        this.HanyaSaya = HanyaSaya;
+        this.Keluarga = Keluarga;
+    }
+    
+    public Circle(Profile Teman){
+        this.Teman = Teman;
+    }
+    
+    public void setProfile(Profile HanyaSaya){
+        this.HanyaSaya = HanyaSaya;
+    }
+    
+    public Profile getHanyaSaya(){
+        return HanyaSaya;
+    }
+    
+    public void setKeluarga(Profile Keluarga){
+        this.Keluarga = Keluarga;
+    }
+    
+    public Profile getKeluarga(){
+        return Keluarga;
+    }
+    
+    public void setTeman(Profile Teman){
+        this.Teman = Teman;
+    }
+    
+    public Profile getTeman(){
+        return Teman;
     }
 }
