@@ -10,14 +10,14 @@ package Tugas;
  *
  * @author Fara
  */
-public class Profil{
+public class Profile{
     private String Nama;
     private String TanggalLahir;
     private String JenisKelamin;
     private String Pekerjaan;
     private String Email;
     
-    public Profil(){
+    public Profile(){
         this.Nama = " ";
         this.TanggalLahir = " ";
         this.JenisKelamin = " ";
@@ -25,7 +25,7 @@ public class Profil{
         this.Email = " ";
     }
     
-    public Profil (String Nama, String TanggalLahir, String JenisKelamin, String Pekerjaan, String Email){
+    public Profile (String Nama, String TanggalLahir, String JenisKelamin, String Pekerjaan, String Email){
         this.Nama = Nama;
         this.TanggalLahir = TanggalLahir;
         this.JenisKelamin = JenisKelamin;
