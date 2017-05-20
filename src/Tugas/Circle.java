@@ -41,10 +41,7 @@ public class Circle{
     public void setKeluarga(Profile Keluarga){
         this.Keluarga = Keluarga;
     }
-    
-    public Profile getKeluarga(){
-        return Keluarga;
-    }
+
     
     public void setTeman(Profile Teman){
         this.Teman = Teman;
