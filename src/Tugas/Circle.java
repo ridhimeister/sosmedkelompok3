@@ -6,7 +6,14 @@
 package Tugas;
 
 public class Circle{
-    private Profile HanyaSaya, Keluarga, Teman;
+    private Profile HanyaSaya, Keluarga, Teman, LingkaranAnda;
+    
+    public Circle(Profile HanyaSaya, Profile Keluarga, Profile Teman, Profile LingkaranAnda){
+        this.HanyaSaya = HanyaSaya;
+        this.Keluarga = Keluarga;
+        this.Teman = Teman;
+        this.LingkaranAnda = LingkaranAnda;
+    }
     
     public Circle(Profile HanyaSaya, Profile Keluarga, Profile Teman){
         this.HanyaSaya = HanyaSaya;
@@ -14,13 +21,13 @@ public class Circle{
         this.Teman = Teman;
     }
     
-    public Circle(Profile HanyaSaya, Profile Keluarga){
-        this.HanyaSaya = HanyaSaya;
-        this.Keluarga = Keluarga;
+    public Circle(Profile Teman, Profile LingkaranAnda){
+        this.Teman = Teman;
+        this.LingkaranAnda = LingkaranAnda;
     }
     
-    public Circle(Profile Teman){
-        this.Teman = Teman;
+    public Circle(Profile LingkaranAnda){
+        this.LingkaranAnda = LingkaranAnda;
     }
     
     public void setProfile(Profile HanyaSaya){
@@ -45,5 +52,13 @@ public class Circle{
     
     public Profile getTeman(){
         return Teman;
+    }
+    
+    public void setLingkaranAnda(Profile LingkaranAnda){
+        this.LingkaranAnda = LingkaranAnda;
+    }
+    
+    public Profile getLingkaranAnda(){
+        return LingkaranAnda;
     }
 }
