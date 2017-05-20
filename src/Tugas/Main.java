@@ -12,7 +12,6 @@ package Tugas;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
 public class Main {
     public static void main(String[]args){
         ArrayList<Profile> profilee = new ArrayList<>();
