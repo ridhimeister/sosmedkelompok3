@@ -17,7 +17,8 @@ public class Main {
         profilee.add(new Profile("Mario Dwi Riadana", "17 February 1998", "Laki-Laki", "Mahasiswa", "mdr.delapan@gmail.com"));
         profilee.add(new Profile("Oka Akbar Putra", "14 April 1992", "Laki-Laki", "Mahasiswa", "death.note8@yahoo.com"));
         profilee.add(new Profile("Irijanti Kusumawati", "29 September 1971", "Perempuan", "Ibu Rumah Tangga", "irijantik@gmail.com"));
-        profilee.add(new Profile("Ridhi Pratomo Pramudana", "29 Juli 1997", "Laki-Laki", "Mahasiswa", "ridhipratomo21@gmail.com"));
+        profilee.add(new profile("Ridhi Pratomo Pramudana", "29 Juli 1997", "Laki-Laki", "Mahasiswa", "ridhipratomo21@gmail.com"));
+        prifilee.add(new Profile("Aldy Ubaidilbarr Elfurqon", "21 Agustus 1997", "Laki-Laki", "Mahasiswa", "aldy.legowo@gmail.com"));
     }
 }
 
