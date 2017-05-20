@@ -5,10 +5,6 @@
  */
 package Tugas;
 
-/**
- *
- * @author Fara
- */
 import java.util.ArrayList;
 import java.util.HashMap;
 

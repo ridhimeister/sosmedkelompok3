@@ -1,9 +1,5 @@
 package Tugas;
 
-/**
- *
- * @author Fara
- */
 public class Profile{
     private String Nama;
     private String TanggalLahir;

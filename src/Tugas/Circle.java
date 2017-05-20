@@ -5,10 +5,6 @@
  */
 package Tugas;
 
-/**
- *
- * @author Fara
- */
 public class Circle{
     private Profile HanyaSaya, Keluarga, Teman;
     
